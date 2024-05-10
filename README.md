@@ -19,6 +19,6 @@ Pin 5 is defined as the start/stop output and pin 7 is the clock output. If nece
 
 ## Notes
 
-The start/stop function works by latching a pin high when the sequence is running, and low when it is not. For most drum machines, this is how the start/stop function works internally. 
+The start/stop function works by latching a pin high when the sequence is running and low when it is not. For most drum machines, this is how the start/stop function works internally. 
 
 However, I have seen some drum machines wherein start/stop works by passing a digital signal through a physically latching switch. In this circumstance, this mod can still work by using the start/stop pin from the microcontroller to control and analog switch IC (4016/4066) that passes the digital signal through.
