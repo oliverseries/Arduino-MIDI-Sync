@@ -1,6 +1,8 @@
+# Generalised Arduino MIDI Sync Firmware
+
 ## Description
 
-This software allows for generalised MIDI sync control over vintage drum machines using an off the shelf Arduino or ATMega328P.
+This software allows for generalised and super tight MIDI sync control over vintage drum machines using an off the shelf Arduino or ATMega328P.
 
 It doesn't use any MIDI library as they're too slow to get a really tight sync, nor does it use the digitalWrite() function as that also isn't fast enough for my liking. Instead, it reads serial directly (only the MIDI command byte, which is all that is necessary for clock sync) and bit bashes the output. This technique is how you get the tightest MIDI sync possible on an Arduino.
 
