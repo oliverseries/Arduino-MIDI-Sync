@@ -11,7 +11,7 @@ Pin 5 is defined as the start/stop output and pin 7 is the clock output. If nece
 ## Usage
 
 1) Get an Arduino and a shield or adapter board of some variety.
-2) Upload the .ino firmware to your Arduino.
+2) Upload the `Arduino-MIDI-Sync.ino` firmware to your Arduino.
 3) Add an optocoupler circuit for the MIDI input, connect the output to the RX pin of the Arduino.
 4) Locate clock and start/stop signal sources on the drum machine's PCB and cut the trace.
 5) (Optional) Make transistor buffer circuits for Arduino output pins.
