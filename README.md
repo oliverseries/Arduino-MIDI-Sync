@@ -1,4 +1,4 @@
-# Generalised Arduino MIDI Sync Firmware
+# Arduino MIDI Sync Firmware
 
 ## Description
 
